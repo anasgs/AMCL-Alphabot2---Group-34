@@ -8,10 +8,14 @@ It was developed as part of the **Autonomous Systems** course at Instituto Super
 
 ```bash
 .
-├── AMCL_algorithm.py         # Core implementation of the AMCL algorithm
-├── simulator_sala.py         # Simulator setup: room environment
-├── simulador_corredor.py     # Simulator setup: corridor environment
-├── README.md                 # Project documentation
+├── AMCL_algorithm.py           # Core implementation of the AMCL algorithm
+├── simulator_sala.py           # Simulator setup: room environment
+├── simulador_corredor.py       # Simulator setup: corridor environment
+├── alphabot_code/              # Code and scripts to deploy on the AlphaBot2 and PC
+│   ├── setup_aruco_detector.sh     # Bash script to set up the camera on the AlphaBot2
+│   ├── run_raspicam_320x240.sh     # Bash script to install and run the ArUco detector on PC
+│   └── aruco_node.py               # Python ROS node for ArUco detection that is created when run_raspicam_320x240.sh is executed.
+├── README.md                   # Project documentation
 
 ```
 ---
@@ -20,8 +24,11 @@ It was developed as part of the **Autonomous Systems** course at Instituto Super
 - Python 3.x
 - NumPy
 - Matplotlib
-- OpenCV (for map handling)
+- OpenCV (for map handling, ArUco marker detection and image processing)
 - Random, math, etc. (standard Python libraries)
+- Python 3.x
+- ROS 1 Noetic (on both AlphaBot and PC)
+- ROS packages (cv_bridge, image_transport, sensor_msgs)
 
 ## 👨‍🎓 Authors
 - Ana Silva (103013)
