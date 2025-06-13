@@ -27,4 +27,4 @@ It was developed as part of the **Autonomous Systems** course at Instituto Super
 - Ana Silva (103013)
 - Camila Abreu
 - Catarina Finuras
-- Alexandre
+- Alexandre Frazão (111098)
