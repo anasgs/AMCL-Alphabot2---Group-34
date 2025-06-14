@@ -32,6 +32,6 @@ It was developed as part of the **Autonomous Systems** course at Instituto Super
 
 ## 👨‍🎓 Authors
 - Ana Silva (103013)
-- Camila Abreu
+- Camila Abreu (102080)
 - Catarina Finuras
 - Alexandre Frazão (111098)
